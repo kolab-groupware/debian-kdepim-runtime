@@ -1,0 +1,5 @@
+kdepim-runtime (4.2.96-1) experimental; urgency=low
+
+  * Split out at source level from kdepim.
+
+ -- Sune Vuorela <debian@pusling.com>  Sun, 12 Jul 2009 11:31:53 +0000
