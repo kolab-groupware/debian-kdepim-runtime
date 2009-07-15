@@ -1,3 +1,10 @@
+kdepim-runtime (4.2.96-2) UNRELEASED; urgency=low
+
+  * Add akonadi-kde Replaces to kdepim-runtime: akonadi_serializer_bokkmark.so
+    is also in akonadi-kde package.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 15 Jul 2009 09:24:01 +0200
+
 kdepim-runtime (4.2.96-1) experimental; urgency=low
 
   * Split out at source level from kdepim.
