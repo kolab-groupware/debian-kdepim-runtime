@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.2.98-0pre1) UNRELEASED; urgency=low
+
+  * New upstream release, RC3. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 28 Jul 2009 11:28:22 +0200
+
 kdepim-runtime (4.2.96-2) experimental; urgency=low
 
   * Add akonadi-kde Replaces to kdepim-runtime: akonadi_serializer_bookmark.so
