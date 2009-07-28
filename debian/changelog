@@ -1,8 +1,8 @@
-kdepim-runtime (4:4.2.98-0pre1) UNRELEASED; urgency=low
+kdepim-runtime (4.2.98-0r1) UNRELEASED; urgency=low
 
-  * New upstream release, RC3. 
+  * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 28 Jul 2009 11:28:22 +0200
+ -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 22:29:33 +0200
 
 kdepim-runtime (4.2.96-2) experimental; urgency=low
 
