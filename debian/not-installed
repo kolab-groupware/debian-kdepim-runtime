@@ -12,3 +12,4 @@
 ./usr/lib/libakonadi_next.so
 ./usr/lib/libkdepim-copy.so
 ./usr/lib/libmaildir.so
+./usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml

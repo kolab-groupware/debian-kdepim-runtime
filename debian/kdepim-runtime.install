@@ -17,7 +17,6 @@ usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/localbookmarksresource.desktop
 usr/share/akonadi/agents/nepomukemailfeeder.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
-usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 usr/share/mime/packages/kdepim-mime.xml
 usr/share/applications/kde4/akonadiconsole.desktop
 usr/share/applications/kde4/akonaditray.desktop
