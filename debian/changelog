@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.3.0-0r2) UNRELEASED; urgency=low
+kdepim-runtime (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ kdepim-runtime (4:4.3.0-0r2) UNRELEASED; urgency=low
   * Add Vcs-* field to debian/control.
   * Do not install devel-only dbus interfaces xml.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Aug 2009 16:13:47 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 09:19:59 +0200
 
 kdepim-runtime (4.2.96-2) experimental; urgency=low
 
