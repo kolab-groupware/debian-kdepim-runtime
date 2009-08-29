@@ -1,6 +1,3 @@
-./usr/include/
-./usr/include/akonadi
-./usr/include/akonadi/xml
 ./usr/include/akonadi/xml/akonadi-xml_export.h
 ./usr/include/akonadi/xml/xmlwriter.h
 ./usr/include/akonadi/xml/xmlwritejob.h

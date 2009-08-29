@@ -1,3 +1,15 @@
+kdepim-runtime (4:4.3.1-0r1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump KDE build dependencies to 4.3.1.
+  * Bump Standards-Version to 3.8.3.
+  * Add debian/installgen.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2009 15:32:30 +0300
+
 kdepim-runtime (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
