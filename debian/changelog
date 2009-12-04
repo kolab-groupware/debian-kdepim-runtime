@@ -1,8 +1,8 @@
-kdepim-runtime (4:4.3.3-0r1) UNRELEASED; urgency=low
+kdepim-runtime (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Lukasz Janyst <janyst@gmail.com>  Tue, 10 Nov 2009 21:12:01 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:55 +0200
 
 kdepim-runtime (4:4.3.2-1) unstable; urgency=low
 
