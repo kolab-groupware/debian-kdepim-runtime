@@ -2,7 +2,7 @@ Source: kdepim-runtime
 Section: x11
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: cdbs, debhelper (>= 7.3), quilt, cmake, pkg-kde-tools (>= 0.5),
  kdepimlibs5-dev (>> 4:4.3.4), libakonadi-dev (>> 1.2.0), libknotificationitem-1-dev (>= 4:4.3.4),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libstreams-dev, libboost-dev (>= 1.40.0-2)
