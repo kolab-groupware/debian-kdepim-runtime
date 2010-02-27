@@ -1,0 +1,2 @@
+kdepim-runtime source: dbg-package-missing-depends kdepim-runtime-dbg
+kdepim-runtime source: quilt-build-dep-but-no-series-file

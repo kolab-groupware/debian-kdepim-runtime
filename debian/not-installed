@@ -1,12 +1,5 @@
-./usr/include/akonadi/xml/akonadi-xml_export.h
-./usr/include/akonadi/xml/xmlwriter.h
-./usr/include/akonadi/xml/xmlwritejob.h
-./usr/include/akonadi/xml/xmldocument.h
-./usr/include/akonadi/xml/xmlreader.h
-./usr/lib/libakonadi-kabccommon.so
-./usr/lib/libakonadi-kcal.so
-./usr/lib/libakonadi-xml.so
-./usr/lib/libakonadi_next.so
 ./usr/lib/libkdepim-copy.so
+./usr/lib/libakonadi-xml.so
 ./usr/lib/libmaildir.so
+./usr/lib/libmbox.so
 ./usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
