@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.4.1-0r2) UNRELEASED; urgency=low
+kdepim-runtime (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -20,7 +20,7 @@ kdepim-runtime (4:4.4.1-0r2) UNRELEASED; urgency=low
   * Switch kdepim-runtime-dbg section to debug and priority to extra.
   * Make kdepim-runtime depend on the kdepimlibs-kio-plugins package.
 
- -- Modestas Vainius <modax@debian.org>  Thu, 25 Feb 2010 01:19:48 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 12:39:13 +0200
 
 kdepim-runtime (4:4.3.4-1) unstable; urgency=low
 
