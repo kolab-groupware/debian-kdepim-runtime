@@ -14,7 +14,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepim-runtime
 
 Package: kdepim-runtime
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-server (>= 1.3)
 Replaces: akonadi-kde, libmaildir4
 Description: Runtime components for akonadi-kde
  This package contains akonadi agents written using kdelibs.
