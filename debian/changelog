@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.4.1+svn1098672-0rc1) UNRELEASED; urgency=low
+kdepim-runtime (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -22,7 +22,7 @@ kdepim-runtime (4:4.4.1+svn1098672-0rc1) UNRELEASED; urgency=low
   * Make kdepim-runtime depend on akonadi-server (>= 1.3).
   * Make kdepim-runtime break kdepimlibs5 (<< 4:4.4).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 12:39:13 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Mar 2010 02:54:31 +0200
 
 kdepim-runtime (4:4.3.4-1) unstable; urgency=low
 
