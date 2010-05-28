@@ -10,6 +10,8 @@ kdepim-runtime (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
   * Remove debian/README.source. Patch support is part of source format
     now.
+  * Drop quilt-build-dep-but-no-series-file from lintian source overrides,
+    it is no longer relevant.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:20 +0300
 
