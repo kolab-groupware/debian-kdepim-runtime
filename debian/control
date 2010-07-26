@@ -9,8 +9,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
  libstreamanalyzer-dev, shared-mime-info (>= 0.30), shared-desktop-ontologies (>= 0.2)
 Standards-Version: 3.8.4
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepim-runtime/#_trunk_packages_kdepim-runtime_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepim-runtime
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim-runtime.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
