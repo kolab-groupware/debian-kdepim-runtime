@@ -8,6 +8,7 @@ kdepim-runtime (4:4.4.93-0r1) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * Add myself to uploaders.
   * Update installed files.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 

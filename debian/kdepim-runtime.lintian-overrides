@@ -1,1 +1,1 @@
-kdepim-runtime: package-name-doesnt-match-sonames libakonadi-xml4 libkdepim-copy4 libmaildir4 libmbox4
+kdepim-runtime: package-name-doesnt-match-sonames libakonadi-filestore4 libakonadi-xml4 libkdepim-copy4 libkmindexreader4 libmaildir4 libmbox4
