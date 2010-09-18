@@ -2,6 +2,8 @@ kdepim-runtime (4:4.4.6-1) UNRELEASED; urgency=low
 
   * New upstream bugfix release.
   * Point debian/control Vcs fields to the new Git repository.
+  * Fix a race between akonado_nepomuk_*_feeder_automoc and
+    autogeneration of ontology headers (nie.h). (Closes: #596908)
 
  -- Modestas Vainius <modax@debian.org>  Fri, 17 Sep 2010 19:56:10 +0300
 
