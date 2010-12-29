@@ -38,13 +38,13 @@ usr/lib/kde4/kcm_akonadi_resources.so
 usr/lib/kde4/kcm_akonadi_server.so
 usr/lib/kde4/kio_akonadi.so
 usr/lib/libakonadi-xml.so.4
-usr/lib/libakonadi-xml.so.4.4.0
+usr/lib/libakonadi-xml.so.4.6.0
 usr/lib/libkdepim-copy.so.4
-usr/lib/libkdepim-copy.so.4.4.0
+usr/lib/libkdepim-copy.so.4.6.0
 usr/lib/libmaildir.so.4
-usr/lib/libmaildir.so.4.4.0
+usr/lib/libmaildir.so.4.6.0
 usr/lib/libmbox.so.4
-usr/lib/libmbox.so.4.4.0
+usr/lib/libmbox.so.4.6.0
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/icalresource.desktop
