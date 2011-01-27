@@ -2,9 +2,10 @@ kdepim-runtime (4:4.4.7-2~pre1) UNRELEASED; urgency=low
 
   * Update installed files.
   * Bump build dependencies:
-    - kdelibs5-dev to 4:4.5.95
-    - kdepimlibs5-dev  to 4:4.5.95
-    - libakonadi-dev to 1.4.95
+    - kdelibs5-dev to 4:4.6.0
+    - kdepimlibs5-dev  to 4:4.6.0
+    - libakonadi-dev to 1.5.0
+    - kde-sc-dev-latest to 4:4.6.0
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 29 Dec 2010 01:24:28 +0100
 
