@@ -12,6 +12,7 @@ kdepim-runtime (4:4.4.10-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Bump Standards-Version to 3.9.1: no changes needed.
+  * Add abort-on-upstream-changes to debian/source/local-options.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 29 Dec 2010 01:24:28 +0100
 
