@@ -1,5 +1,8 @@
-kdepim-runtime (4:4.4.7-2~pre1) UNRELEASED; urgency=low
+kdepim-runtime (4:4.4.10-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
   * Update installed files.
   * Bump build dependencies:
     - kdelibs5-dev to 4:4.6
