@@ -16,7 +16,7 @@ Package: kdepim-runtime
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-server (>= 1.3)
 Replaces: akonadi-kde, libmaildir4
-Breaks: kdepimlibs5 (<< 4:4.4)
+Breaks: akonadi-kde, libmaildir4, kdepimlibs5 (<< 4:4.4)
 Description: Runtime components for akonadi-kde
  This package contains akonadi agents written using kdelibs.
  Any package that uses akonadi should probably pull this in as a dependency.
@@ -29,6 +29,7 @@ Section: debug
 Priority: extra
 Architecture: any
 Replaces: kdepim-dbg
+Breaks: kdepim-dbg
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: debugging files for akonadi kde runtime components
  This package contains debugging symbols.

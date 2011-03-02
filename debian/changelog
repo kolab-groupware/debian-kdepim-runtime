@@ -9,9 +9,9 @@ kdepim-runtime (4:4.4.10-0r1) UNRELEASED; urgency=low
     - kdepimlibs5-dev  to 4:4.6
     - libakonadi-dev to 1.5.0
     - kde-sc-dev-latest to 4:4.6
+  * Bump S-V to 3.9.1: add Breaks next to Replaces where needed.
 
   [ Modestas Vainius ]
-  * Bump Standards-Version to 3.9.1: no changes needed.
   * Add abort-on-upstream-changes to debian/source/local-options.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 29 Dec 2010 01:24:28 +0100
