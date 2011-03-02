@@ -8,7 +8,7 @@ kdepim-runtime (4:4.4.10-0r1) UNRELEASED; urgency=low
     - kdelibs5-dev to 4:4.6
     - kdepimlibs5-dev  to 4:4.6
     - libakonadi-dev to 1.5.0
-    - kde-sc-dev-latest to 4:4.6
+    - kde-sc-dev-latest to 4:4.6.1
   * Bump S-V to 3.9.1: add Breaks next to Replaces where needed.
 
   [ Modestas Vainius ]
