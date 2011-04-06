@@ -3,7 +3,7 @@ Section: x11
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.6.1),
+Build-Depends: kde-sc-dev-latest (>= 4:4.6.2),
  debhelper (>= 7.3), cmake, pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.6), kdepimlibs5-dev (>= 4:4.6), libakonadi-dev (>= 1.5.0),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
