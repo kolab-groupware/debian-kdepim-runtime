@@ -11,6 +11,7 @@ kdepim-runtime (4:4.4.10-0r3) UNRELEASED; urgency=low
     - kde-sc-dev-latest to 4:4.6.2
   * Bump S-V to 3.9.1: add Breaks next to Replaces where needed.
   * Add debian/not-installed.
+  * Add myself to Uploaders.
 
   [ Modestas Vainius ]
   * Add abort-on-upstream-changes to debian/source/local-options.
