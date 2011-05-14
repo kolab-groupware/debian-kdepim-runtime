@@ -1,9 +1,10 @@
-kdepim-runtime (4:4.6~beta5+git26+gd9f2519) UNRELEASED; urgency=low
+kdepim-runtime (4:4.5.96) UNRELEASED; urgency=low
 
   * New upstream beta release.
 
   [ Jan Losinski ]
   * merge 4.5 branch with 4.4 head
+  * fix install files for new release
 
  -- Jan Losinski <losinski@wh2.tu-dresden.de>  Fri, 13 May 2011 17:05:09 +0200
 
