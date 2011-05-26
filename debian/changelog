@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.4.11.1-2) unstable; urgency=low
+
+  * Release to unstable.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 26 May 2011 22:55:30 +0300
+
 kdepim-runtime (4:4.4.11.1-1) experimental; urgency=low
 
   * New upstream release.
