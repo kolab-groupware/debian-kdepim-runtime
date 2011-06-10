@@ -12,6 +12,9 @@ kdepim-runtime (4:4.5.96-0r1) UNRELEASED; urgency=low
   [ Jan Losinski ]
   * Update install files.
 
+  [ Modestas Vainius ]
+  * Wildcardize l10n stuff in kdepim-runtime.install.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 
 kdepim-runtime (4:4.4.11.1-2) unstable; urgency=low
