@@ -1,5 +1,4 @@
 ./usr/lib/libakonadi-filestore.so
-./usr/lib/libakonadi-filestore.so
 ./usr/lib/libakonadi-xml.so
 ./usr/lib/libkdepim-copy.so
 ./usr/lib/libkmindexreader.so

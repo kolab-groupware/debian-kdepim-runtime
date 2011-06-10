@@ -48,14 +48,12 @@ usr/lib/kde4/kcm_akonadi.so
 usr/lib/kde4/kcm_akonadi_resources.so
 usr/lib/kde4/kcm_akonadi_server.so
 usr/lib/kde4/kio_akonadi.so
-usr/lib/libakonadi-filestore.so
 usr/lib/libakonadi-filestore.so.4
 usr/lib/libakonadi-filestore.so.4.6.0
 usr/lib/libakonadi-xml.so.4
 usr/lib/libakonadi-xml.so.4.6.0
 usr/lib/libkdepim-copy.so.4
 usr/lib/libkdepim-copy.so.4.6.0
-usr/lib/libkmindexreader.so
 usr/lib/libkmindexreader.so.4
 usr/lib/libkmindexreader.so.4.6.0
 usr/lib/libmaildir.so.4
