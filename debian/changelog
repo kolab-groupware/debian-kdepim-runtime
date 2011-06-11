@@ -13,6 +13,7 @@ kdepim-runtime (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Wildcardize l10n stuff in kdepim-runtime.install.
   * Bump Standards-Version to 3.9.2: no changes needed.
   * Make kdepim-runtime-dbg depend on kdepim-runtime.
+  * Require KDE SC 4.6.3 for building.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 
