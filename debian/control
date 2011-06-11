@@ -33,7 +33,7 @@ Priority: extra
 Architecture: any
 Replaces: kdepim-dbg (<< 4:4.4)
 Breaks: kdepim-dbg (<< 4:4.4)
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, kdepim-runtime (= ${binary:Version})
 Description: debugging files for Akonadi KDE runtime components
  This package contains debugging symbols associated with kdepim-runtime.
  They will automatically be used by gdb for debugging issues related to
