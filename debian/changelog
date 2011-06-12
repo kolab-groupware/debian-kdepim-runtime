@@ -18,6 +18,8 @@ kdepim-runtime (4:4.6.0-0r3) UNRELEASED; urgency=low
   * Extend kdepim-runtime-dbg description.
   * Capitalize KDE in package descriptions.
   * Add kde-l10n, kde-l10n-nopim to kdepim-runtime Conflicts.
+  * Version kdepim-dbg Breaks/Replaces. Otherwise, kdepim-runtime-dbg is not
+    co-installable with kdepim-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 
