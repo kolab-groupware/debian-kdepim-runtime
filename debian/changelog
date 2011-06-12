@@ -4,7 +4,6 @@ kdepim-runtime (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
-  * Update lintian overrides.
 
   [ Jan Losinski ]
   * Update install files.
@@ -14,6 +13,7 @@ kdepim-runtime (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.2: no changes needed.
   * Make kdepim-runtime-dbg depend on kdepim-runtime.
   * Require KDE SC 4.6.3 for building.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 
