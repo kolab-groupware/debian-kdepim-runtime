@@ -162,6 +162,7 @@ usr/share/locale/*/LC_MESSAGES/akonadi_kresourceassistant.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_localbookmarks_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_maildir_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_maildispatcher_agent.mo
+usr/share/locale/*/LC_MESSAGES/akonadi_mailtransport_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_mbox_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_microblog_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_mixedmaildir_resource.mo
@@ -172,6 +173,7 @@ usr/share/locale/*/LC_MESSAGES/akonadi_openxchange_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_pop3_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_serializer_plugins.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_singlefile_resource.mo
+usr/share/locale/*/LC_MESSAGES/akonadi_strigi_feeder.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_vcard_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonadi_vcarddir_resource.mo
 usr/share/locale/*/LC_MESSAGES/akonaditray.mo
@@ -179,10 +181,12 @@ usr/share/locale/*/LC_MESSAGES/kabc_akonadi.mo
 usr/share/locale/*/LC_MESSAGES/kaddressbookmigrator.mo
 usr/share/locale/*/LC_MESSAGES/kcal_akonadi.mo
 usr/share/locale/*/LC_MESSAGES/kcm_akonadi.mo
+usr/share/locale/*/LC_MESSAGES/kdepim-runtime-qml.mo
 usr/share/locale/*/LC_MESSAGES/kio_akonadi.mo
 usr/share/locale/*/LC_MESSAGES/kjotsmigrator.mo
 usr/share/locale/*/LC_MESSAGES/kmail-migrator.mo
 usr/share/locale/*/LC_MESSAGES/kres-migrator.mo
 usr/share/locale/*/LC_MESSAGES/kresources_shared_akonadi.mo
+usr/share/locale/*/LC_MESSAGES/newmailnotifieragent.mo
 usr/share/mime/packages/accountwizard-mime.xml
 usr/share/mime/packages/kdepim-mime.xml
