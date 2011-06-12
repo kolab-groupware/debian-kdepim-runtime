@@ -15,6 +15,7 @@ kdepim-runtime (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Require KDE SC 4.6.3 for building.
   * Update lintian overrides.
   * Drop extra Priority field from kdepim-runtime-dbg control.
+  * Extend kdepim-runtime-dbg description.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 

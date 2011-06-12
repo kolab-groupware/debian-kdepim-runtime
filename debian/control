@@ -32,6 +32,8 @@ Replaces: kdepim-dbg
 Breaks: kdepim-dbg
 Depends: ${misc:Depends}, kdepim-runtime (= ${binary:Version})
 Description: debugging files for akonadi kde runtime components
- This package contains debugging symbols.
+ This package contains debugging symbols. You will want to install this package
+ when you encounter crashes in akonadi kde runtime components. It will help to
+ produce useful information to developers.
  .
  This package is part of the kdepim-runtime module.
