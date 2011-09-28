@@ -21,6 +21,9 @@ kdepim-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
   * Version kdepim-dbg Breaks/Replaces. Otherwise, kdepim-runtime-dbg is not
     co-installable with kdepim-dbg.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump shared-desktop-ontologies build depend to 0.6.50.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 
 kdepim-runtime (4:4.4.11.1-2) unstable; urgency=low
