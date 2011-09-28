@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.6.0-0r4) UNRELEASED; urgency=low
+kdepim-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kdepim-runtime (4:4.6.0-0r4) UNRELEASED; urgency=low
   * Wildcardize l10n stuff in kdepim-runtime.install.
   * Bump Standards-Version to 3.9.2: no changes needed.
   * Make kdepim-runtime-dbg depend on kdepim-runtime.
-  * Require KDE SC 4.6.3 for building.
+  * Require KDE SC 4.7.1 for building.
   * Update lintian overrides.
   * Drop extra Priority field from kdepim-runtime-dbg control.
   * Extend kdepim-runtime-dbg description.
