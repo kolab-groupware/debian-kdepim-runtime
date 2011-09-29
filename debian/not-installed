@@ -3,7 +3,6 @@
 ./usr/lib/libkdepim-copy.so
 ./usr/lib/libkmindexreader.so
 ./usr/lib/libmaildir.so
-./usr/lib/libmbox.so
 ./usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 ./usr/share/dbus-1/interfaces/org.kde.Akonadi.MixedMaildir.Settings.xml
 ./usr/lib/kde4/imports/org/kde/BreadcrumbNavigationView.qml

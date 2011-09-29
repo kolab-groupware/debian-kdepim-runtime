@@ -23,6 +23,7 @@ kdepim-runtime (4:4.7.1-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build depend to 0.6.50.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
 
