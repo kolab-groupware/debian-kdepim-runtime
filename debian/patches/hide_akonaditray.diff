@@ -1,0 +1,9 @@
+Index: kdepim-runtime-4.4.11.1/tray/akonaditray.desktop
+===================================================================
+--- kdepim-runtime-4.4.11.1.orig/tray/akonaditray.desktop	2011-04-21 15:41:44.000000000 +0200
++++ kdepim-runtime-4.4.11.1/tray/akonaditray.desktop	2011-10-21 12:40:21.760775910 +0200
+@@ -80,3 +80,4 @@
+ GenericName[x-test]=xxAkonadi Tray Utilityxx
+ GenericName[zh_CN]=Akonadi 托盘工具
+ GenericName[zh_TW]=Akonadi 系統匣工具
++NoDisplay=true
