@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.4.11.1-3) UNRELEASED; urgency=low
+kdepim-runtime (4:4.4.11.1-3) unstable; urgency=low
 
   [ Modestas Vainius ]
   * Version kdepim-dbg Breaks/Replaces. Otherwise, kdepim-runtime-dbg is not
@@ -7,7 +7,7 @@ kdepim-runtime (4:4.4.11.1-3) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump Standards-Version. No changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Nov 2011 23:35:42 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Nov 2011 21:43:16 -0300
 
 kdepim-runtime (4:4.4.11.1-2) unstable; urgency=low
 
