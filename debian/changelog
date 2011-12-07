@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.7.2-0r0) UNRELEASED; urgency=low
+kdepim-runtime (4:4.7.4-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kdepim-runtime (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Wildcardize l10n stuff in kdepim-runtime.install.
   * Bump Standards-Version to 3.9.2: no changes needed.
   * Make kdepim-runtime-dbg depend on kdepim-runtime.
-  * Require KDE SC 4.7.2 for building.
+  * Require KDE SC 4.7.4 for building.
   * Update lintian overrides.
   * Drop extra Priority field from kdepim-runtime-dbg control.
   * Extend kdepim-runtime-dbg description.
@@ -25,7 +25,7 @@ kdepim-runtime (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Bump shared-desktop-ontologies build depend to 0.6.50.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 23:13:11 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 13:23:10 +0100
 
 kdepim-runtime (4:4.4.11.1-2) unstable; urgency=low
 
