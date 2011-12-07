@@ -25,7 +25,10 @@ kdepim-runtime (4:4.7.4-0r0) UNRELEASED; urgency=low
   * Bump shared-desktop-ontologies build depend to 0.6.50.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 13:23:10 +0100
+  [ Eshat Cakar ]
+  * Add remove_bcc_header.patch from upstream.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 14:17:22 +0100
 
 kdepim-runtime (4:4.4.11.1-2) unstable; urgency=low
 

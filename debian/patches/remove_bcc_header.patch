@@ -1,0 +1,16 @@
+Description: Remove BCC line before sending mails
+Origin: upstream, https://projects.kde.org/projects/kde/kdepim-runtime/repository/revisions/0875ca055322fd94962ed473be0a41854e17373a
+Bug: http://bugs.kde.org/263587
+--- a/agents/maildispatcher/sendjob.cpp
++++ b/agents/maildispatcher/sendjob.cpp
+@@ -175,6 +175,10 @@
+   // Message.
+   Q_ASSERT( item.hasPayload<Message::Ptr>() );
+   const Message::Ptr message = item.payload<Message::Ptr>();
++  if( message->hasHeader( "Bcc" ) ) {
++      message->removeHeader( "Bcc" );
++      message->assemble();
++  }
+   const QByteArray content = message->encodedContent( true ) + "\r\n";
+   Q_ASSERT( !content.isEmpty() );
+ 
