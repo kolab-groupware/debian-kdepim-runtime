@@ -26,7 +26,6 @@ kdepim-runtime (4:4.8.0-0r0) UNRELEASED; urgency=low
   * Update installed files.
 
   [ Eshat Cakar ]
-  * Add remove_bcc_header.patch from upstream.
   * Bump kdelibs5-dev and kdepimlibs5-dev build dependencies to 4:4.8.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 14:17:22 +0100
