@@ -1,2 +1,3 @@
 fix_ontology_vs_feeder_automoc_race_condition.diff
 hide_akonaditray.diff
+debian_set_library_version.diff
