@@ -1,8 +1,9 @@
 kdepim-runtime (4:4.4.11.1-4) UNRELEASED; urgency=low
 
+  [ Michael Biebl ]
   * Hide akonaditray to not show up in the menu. (Closes: #613718)
 
- -- Michael Biebl <biebl@debian.org>  Thu, 08 Dec 2011 07:42:17 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 07:42:17 +0100
 
 kdepim-runtime (4:4.4.11.1-3) unstable; urgency=low
 
