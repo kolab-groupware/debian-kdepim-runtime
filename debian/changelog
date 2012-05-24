@@ -7,6 +7,7 @@ kdepim-runtime (4:4.4.11.1-4) UNRELEASED; urgency=low
   * Override GENERIC_LIB_VERSION and KDE_NON_GENERIC_LIB_VERSION to not depend
     on the kdelibs version. (Closes: #665060)
   * Add Homepage in control.
+  * Small touches to the descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 07:42:17 +0100
 
