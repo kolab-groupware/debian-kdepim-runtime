@@ -1,3 +1,8 @@
+Author: Michael Biebl <biebl@debian.org>
+Description: Hide akonaditray to not show up in the menu.
+Last-Update: 2011-10-21
+Forwarded: no
+
 --- a/tray/akonaditray.desktop
 +++ b/tray/akonaditray.desktop
 @@ -80,3 +80,4 @@ GenericName[uk]=Утиліта лотк�
