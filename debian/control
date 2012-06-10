@@ -9,7 +9,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  kdelibs5-dev (>= 4:4.8), kdepimlibs5-dev (>= 4:4.8), libakonadi-dev (>= 1.7.2),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
  libstreamanalyzer-dev, shared-mime-info (>= 0.30), shared-desktop-ontologies (>= 0.6.50)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
+Homepage: http://pim.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim-runtime.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
@@ -19,22 +20,24 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-ser
 Replaces: akonadi-kde, libmaildir4
 Breaks: akonadi-kde, libmaildir4, kdepimlibs5 (<< 4:4.4)
 Conflicts: kde-l10n, kde-l10n-nopim
-Description: Runtime components for akonadi-kde
- This package contains akonadi agents written using kdelibs.
- Any package that uses akonadi should probably pull this in as a dependency.
+Description: runtime components for Akonadi KDE
+ This package contains Akonadi agents written using KDE Development Platform
+ libraries.
+ Any package that uses Akonadi should probably pull this in as a dependency.
  The kres-bridges is also parts of this package.
  .
  This package is part of the kdepim-runtime module.
 
 Package: kdepim-runtime-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Replaces: kdepim-dbg (<< 4:4.4)
 Breaks: kdepim-dbg (<< 4:4.4)
 Depends: ${misc:Depends}, kdepim-runtime (= ${binary:Version})
-Description: debugging files for akonadi KDE runtime components
- This package contains debugging symbols. You will want to install this package
- when you encounter crashes in akonadi KDE runtime components. It will help to
- produce useful information to developers.
+Description: debugging files for Akonadi KDE runtime components
+ This package contains debugging symbols associated with kdepim-runtime.
+ They will automatically be used by gdb for debugging issues related to
+ components of kdepim-runtime.
  .
  This package is part of the kdepim-runtime module.

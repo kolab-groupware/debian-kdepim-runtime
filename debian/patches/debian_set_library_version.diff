@@ -1,0 +1,22 @@
+Author: Pino Toscano <pino@debian.org>
+Description: override GENERIC_LIB_VERSION & KDE_NON_GENERIC_LIB_VERSION
+ Override the two cmake variables GENERIC_LIB_VERSION and
+ KDE_NON_GENERIC_LIB_VERSION (set by KDE4Defaults.cmake, provided by kdelibs),
+ to avoid adjusting .install files every time kdelibs is upgraded to a newer
+ stable serie (e.g. 4.6.x -> 4.7.x).
+Forwarded: not-needed
+Last-Update: 2012-04-17
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,6 +9,10 @@
+ find_package(KDE4 REQUIRED)
+ include(KDE4Defaults)
+ 
++# temporarly override them to not depend on kdelibs
++set(GENERIC_LIB_VERSION "4.6.0")
++set(KDE_NON_GENERIC_LIB_VERSION "5.6.0")
++
+ find_package(KdepimLibs 4.3.85 REQUIRED)
+ 
+ find_package(Boost 1.34.0)
