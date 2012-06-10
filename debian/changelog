@@ -9,13 +9,10 @@ kdepim-runtime (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Update install files.
 
   [ Modestas Vainius ]
-  * Wildcardize l10n stuff in kdepim-runtime.install.
   * Make kdepim-runtime-dbg depend on kdepim-runtime.
   * Require KDE SC 4.8.4 for building.
   * Update lintian overrides.
   * Drop extra Priority field from kdepim-runtime-dbg control.
-  * Extend kdepim-runtime-dbg description.
-  * Capitalize KDE in package descriptions.
   * Add kde-l10n, kde-l10n-nopim to kdepim-runtime Conflicts.
   * Version kdepim-dbg Breaks/Replaces. Otherwise, kdepim-runtime-dbg is not
     co-installable with kdepim-dbg.
