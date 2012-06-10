@@ -29,6 +29,7 @@ kdepim-runtime (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump kdelibs5-dev and kdepimlibs5-dev build dependencies to 4:4.8.
   * Update installed files in 4.8.
   * Add watch file.
+  * Bump libakonadi-dev build dependency version to 1.7.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:46:29 +0100
 
