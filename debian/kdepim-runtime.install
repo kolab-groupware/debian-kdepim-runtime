@@ -64,7 +64,7 @@ usr/lib/libkmindexreader.so.4
 usr/lib/libkmindexreader.so.4.8.0
 usr/lib/libmaildir.so.4
 usr/lib/libmaildir.so.4.8.0
-usr/lib/libnepomukdatamanagement-copy.so
+usr/lib/libkdepim-runtime-dms-copy.so
 usr/share/akonadi/agents/akonadinepomukfeederagent.desktop
 usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
