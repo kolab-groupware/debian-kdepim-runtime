@@ -16,6 +16,7 @@ kdepim-runtime (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Add kde-l10n, kde-l10n-nopim to kdepim-runtime Conflicts.
   * Version kdepim-dbg Breaks/Replaces. Otherwise, kdepim-runtime-dbg is not
     co-installable with kdepim-dbg.
+  * Drop debian_set_library_version.diff patch, not needed.
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build depend to 0.6.50.
