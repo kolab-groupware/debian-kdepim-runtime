@@ -31,8 +31,8 @@ Package: kdepim-runtime-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Replaces: kdepim-dbg (<< 4.4)
-Breaks: kdepim-dbg (<< 4.4)
+Replaces: kdepim-dbg (<< 4:4.4)
+Breaks: kdepim-dbg (<< 4:4.4)
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: debugging files for Akonadi KDE runtime components
  This package contains debugging symbols associated with kdepim-runtime.
