@@ -1,6 +1,7 @@
-kdepim-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
+kdepim-runtime (4:4.8.4-1) experimental; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
@@ -24,7 +25,7 @@ kdepim-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Add watch file.
   * Bump libakonadi-dev build dependency version to 1.7.2.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:46:29 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 24 Jun 2012 14:28:48 +0300
 
 kdepim-runtime (4:4.4.11.1-5) unstable; urgency=low
 
