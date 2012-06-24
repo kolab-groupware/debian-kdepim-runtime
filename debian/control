@@ -19,7 +19,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-server (>= 1.3)
 Replaces: akonadi-kde, libmaildir4
 Breaks: akonadi-kde, libmaildir4, kdepimlibs5 (<< 4:4.4)
-Conflicts: kde-l10n, kde-l10n-nopim
 Description: runtime components for Akonadi KDE
  This package contains Akonadi agents written using KDE Development Platform
  libraries.
