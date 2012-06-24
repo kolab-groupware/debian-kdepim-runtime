@@ -12,6 +12,7 @@ kdepim-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Require KDE SC 4.8.4 for building.
   * Update lintian overrides.
   * Drop debian_set_library_version.diff patch, not needed.
+  * Do not generate shlibs for usr/lib/libkdepim-runtime-dms-copy.so.
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build depend to 0.6.50.
