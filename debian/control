@@ -29,6 +29,7 @@ Description: runtime components for Akonadi KDE
 
 Package: kdepim-runtime-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Replaces: kdepim-dbg (<< 4:4.4)
 Breaks: kdepim-dbg (<< 4:4.4)

@@ -26,7 +26,6 @@ kdepim-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Update installed files in 4.8.
   * Add watch file.
   * Bump libakonadi-dev build dependency version to 1.7.2.
-  * Remove duplicated Priority field for kdepim-runtime-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:46:29 +0100
 
