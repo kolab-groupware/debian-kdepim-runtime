@@ -9,12 +9,8 @@ kdepim-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Update install files.
 
   [ Modestas Vainius ]
-  * Make kdepim-runtime-dbg depend on kdepim-runtime.
   * Require KDE SC 4.8.4 for building.
   * Update lintian overrides.
-  * Drop extra Priority field from kdepim-runtime-dbg control.
-  * Version kdepim-dbg Breaks/Replaces. Otherwise, kdepim-runtime-dbg is not
-    co-installable with kdepim-dbg.
   * Drop debian_set_library_version.diff patch, not needed.
 
   [ José Manuel Santamaría Lema ]
