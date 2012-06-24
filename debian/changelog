@@ -30,6 +30,15 @@ kdepim-runtime (4:4.8.4-0r1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:46:29 +0100
 
+kdepim-runtime (4:4.4.11.1-5) unstable; urgency=low
+
+  * Add epoch to kdepim-runtime-dbg Breaks/Replaces on kdepim-dbg.
+  * Make kdepim-runtime-dbg depend on kdepim-runtime.
+  * Make kdepim-rumtime priority: optional since it is injected via shlibs into
+    depends of many other optional packages.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 24 Jun 2012 13:11:53 +0300
+
 kdepim-runtime (4:4.4.11.1-4) unstable; urgency=low
 
   * Team upload.
