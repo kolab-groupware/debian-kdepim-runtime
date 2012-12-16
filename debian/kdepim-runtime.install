@@ -13,8 +13,6 @@ usr/bin/akonadi_maildispatcher_agent
 usr/bin/akonadi_mailtransport_dummy_resource
 usr/bin/akonadi_mbox_resource
 usr/bin/akonadi_microblog_resource
-usr/bin/akonadi_nepomuk_calendar_feeder
-usr/bin/akonadi_nepomuk_contact_feeder
 usr/bin/akonadi_nepomuktag_resource
 usr/bin/akonadi_nntp_resource
 usr/bin/akonadi_notes_resource
@@ -60,8 +58,6 @@ usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
 usr/share/akonadi/agents/microblog.desktop
 usr/share/akonadi/agents/mtdummyresource.desktop
-usr/share/akonadi/agents/nepomukcalendarfeeder.desktop
-usr/share/akonadi/agents/nepomukcontactfeeder.desktop
 usr/share/akonadi/agents/nepomuktagresource.desktop
 usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/notesresource.desktop

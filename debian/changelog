@@ -1,6 +1,9 @@
 kdepim-runtime (4:4.4.11.1-6) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez Meyer]
+  * Do not install the nepomuk feeders. They fill the nepomuk database with
+    data in ways that makes nepomuk queries amazingly slow. This came from
+    a discussion with upstream (Closes: #696054).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Dec 2012 12:51:37 -0300
 
