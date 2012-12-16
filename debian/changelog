@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.4.11.1-6) UNRELEASED; urgency=low
+
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Dec 2012 12:51:37 -0300
+
 kdepim-runtime (4:4.4.11.1-5) unstable; urgency=low
 
   * Add epoch to kdepim-runtime-dbg Breaks/Replaces on kdepim-dbg.
