@@ -1,3 +1,11 @@
+kdepim-runtime (4:4.10.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release
+  * Update copyright file
+  * Update install files
+
+ -- Sune Vuorela <sune@debian.org>  Tue, 26 Mar 2013 14:42:10 +0000
+
 kdepim-runtime (4:4.8.4-1) experimental; urgency=low
 
   * New upstream release.
