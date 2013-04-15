@@ -17,7 +17,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-server (>= 1.3)
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-server (>= 1.8)
 Replaces: akonadi-kde, libmaildir4
 Breaks: akonadi-kde, libmaildir4, kdepimlibs5 (<< 4:4.4)
 Description: runtime components for Akonadi KDE
