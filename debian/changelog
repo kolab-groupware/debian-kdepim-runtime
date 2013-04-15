@@ -1,5 +1,11 @@
 kdepim-runtime (4:4.10.2-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Bump build dependencies according to the upstream requirements:
+    - kdelibs5-dev >= 4:4.10
+    - kdepimlibs5-dev >= 4:4.10.1
+    - libakonadi-dev >= 1.8
+    - shared-desktop-ontologies >= 0.10
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Apr 2013 13:53:55 +0200
 
