@@ -1,0 +1,24 @@
+commit 8097d5889c0b31c749dc4ddd59e19d1ca163ef9f
+Author: Christian Mollekopf <chrigi_1@fastmail.fm>
+Date:   Fri Apr 19 13:00:15 2013 +0200
+
+    Only use kWarning where necessary so the debug output can be disabled.
+
+diff --git a/agents/nepomukfeeder/itemqueue.cpp b/agents/nepomukfeeder/itemqueue.cpp
+index 6587290..c3c9c14 100644
+--- a/agents/nepomukfeeder/itemqueue.cpp
++++ b/agents/nepomukfeeder/itemqueue.cpp
+@@ -209,11 +209,10 @@ void ItemQueue::batchJobResult(KJob* job)
+   const Nepomuk2::SimpleResourceGraph graph = job->property("graph").value<Nepomuk2::SimpleResourceGraph>();
+   //FIXME: Better error handling - Store this in some error file?
+   if ( job->error() ) {
+-    kWarning() << "Error while storing graph";
++    kWarning() << "Error while storing graph: " << job->errorString();
+     foreach( const Nepomuk2::SimpleResource &res, graph.toList() ) {
+-        kWarning() << res;
++        kDebug() << res;
+     }
+-    kWarning() << job->errorString();
+   } else {
+     Nepomuk2::StoreResourcesJob *storeResourcesJob = static_cast<Nepomuk2::StoreResourcesJob*>(job);
+     Q_ASSERT(storeResourcesJob);
