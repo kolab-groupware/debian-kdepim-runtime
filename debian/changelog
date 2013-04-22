@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.10.2-3) UNRELEASED; urgency=low
+
+  * Shuffle around build-deps to work around aptitude.
+
+ -- Sune Vuorela <sune@debian.org>  Sat, 20 Apr 2013 09:06:00 +0200
+
 kdepim-runtime (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]

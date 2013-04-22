@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Mo
  George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  debhelper (>= 7.3.16), cmake, pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.10), kdepimlibs5-dev (>= 4:4.10.1), libakonadi-dev (>= 1.8),
+ kdepimlibs5-dev (>= 4:4.10.1), kdelibs5-dev (>= 4:4.10), libakonadi-dev (>= 1.8),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
  libstreamanalyzer-dev, shared-mime-info (>= 0.30), shared-desktop-ontologies (>= 0.10),
  nepomuk-core-dev
