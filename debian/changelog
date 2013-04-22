@@ -1,9 +1,9 @@
-kdepim-runtime (4:4.10.2-3) UNRELEASED; urgency=low
+kdepim-runtime (4:4.10.2-3) experimental; urgency=low
 
   * Shuffle around build-deps to work around aptitude.
   * Take a patch from upstream to reduce the warnings from the nepomuk-feeder.
 
- -- Sune Vuorela <sune@debian.org>  Sat, 20 Apr 2013 09:06:00 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 22 Apr 2013 08:49:22 +0200
 
 kdepim-runtime (4:4.10.2-2) experimental; urgency=low
 
