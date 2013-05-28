@@ -3,9 +3,11 @@ Description: Hide akonaditray to not show up in the menu.
 Last-Update: 2011-10-21
 Forwarded: no
 
---- a/tray/akonaditray.desktop
-+++ b/tray/akonaditray.desktop
-@@ -80,3 +80,4 @@ GenericName[uk]=Утиліта лотк�
+Index: kdepim-runtime/tray/akonaditray.desktop
+===================================================================
+--- kdepim-runtime.orig/tray/akonaditray.desktop	2013-05-28 22:17:07.002066577 +0200
++++ kdepim-runtime/tray/akonaditray.desktop	2013-05-28 22:17:07.002066577 +0200
+@@ -98,3 +98,4 @@
  GenericName[x-test]=xxAkonadi Tray Utilityxx
  GenericName[zh_CN]=Akonadi 托盘工具
  GenericName[zh_TW]=Akonadi 系統匣工具
