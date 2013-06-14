@@ -12,8 +12,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  nepomuk-core-dev
 Standards-Version: 3.9.4
 Homepage: http://pim.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim-runtime.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepim-runtime.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
