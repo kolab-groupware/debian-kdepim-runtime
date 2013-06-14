@@ -10,7 +10,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
  libstreamanalyzer-dev, shared-mime-info (>= 0.30), shared-desktop-ontologies (>= 0.10),
  nepomuk-core-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim-runtime.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
