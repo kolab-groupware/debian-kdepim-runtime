@@ -66,6 +66,15 @@ kdepim-runtime (4:4.8.4-1) experimental; urgency=low
 
  -- Modestas Vainius <modax@debian.org>  Sun, 24 Jun 2012 14:28:48 +0300
 
+kdepim-runtime (4:4.4.11.1-6) unstable; urgency=low
+
+  * Team upload.
+  * Do not install the nepomuk feeders. They fill the nepomuk database with
+    data in ways that makes nepomuk queries amazingly slow. This came from
+    a discussion with upstream (Closes: #696054).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 16 Dec 2012 13:11:35 -0300
+
 kdepim-runtime (4:4.4.11.1-5) unstable; urgency=low
 
   * Add epoch to kdepim-runtime-dbg Breaks/Replaces on kdepim-dbg.
