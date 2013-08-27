@@ -1,5 +1,9 @@
 kdepim-runtime (4:4.10.5-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Enable the kolabproxy Akonadi resource: (Closes: #705406)
+    - add the libkolabxml-dev and libkolab-dev build dependencies
+    - update kdepim-runtime.install with the newly installed files
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Aug 2013 18:35:38 +0200
 
