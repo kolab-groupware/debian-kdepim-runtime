@@ -125,12 +125,17 @@ usr/share/akonadi/agents/vcardresource.desktop
 usr/share/applications/kde4/accountwizard.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/autostart/kaddressbookmigrator.desktop
+usr/share/icons/hicolor/128x128/apps/akonaditray.png
 usr/share/icons/hicolor/128x128/apps/ox.png
 usr/share/icons/hicolor/16x16/apps/ox.png
+usr/share/icons/hicolor/22x22/apps/akonaditray.png
+usr/share/icons/hicolor/32x32/apps/akonaditray.png
 usr/share/icons/hicolor/32x32/apps/ox.png
 usr/share/icons/hicolor/48x48/apps/ox.png
+usr/share/icons/hicolor/64x64/apps/akonaditray.png
 usr/share/icons/hicolor/64x64/apps/kolab.png
 usr/share/icons/hicolor/64x64/apps/ox.png
+usr/share/icons/hicolor/scalable/apps/akonaditray.svgz
 usr/share/kde4/apps/akonadi/accountwizard/contacts/contactswizard.desktop
 usr/share/kde4/apps/akonadi/accountwizard/contacts/contactswizard.es
 usr/share/kde4/apps/akonadi/accountwizard/contacts/contactswizard.ui
