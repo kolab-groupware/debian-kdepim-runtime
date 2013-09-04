@@ -7,6 +7,7 @@ kdepim-runtime (4:4.10.5-2) UNRELEASED; urgency=low
     - make sure to force the minimum libkolab version to 0.4.2-7, as it
       provides a wanted bugfix
   * Install the akonaditray icons.
+  * Remove handling of libkdepim-runtime-dms-copy.so, no more shipped.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Aug 2013 18:35:38 +0200
 
