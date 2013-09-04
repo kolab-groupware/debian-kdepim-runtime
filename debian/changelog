@@ -8,6 +8,7 @@ kdepim-runtime (4:4.10.5-2) UNRELEASED; urgency=low
       provides a wanted bugfix
   * Install the akonaditray icons.
   * Remove handling of libkdepim-runtime-dms-copy.so, no more shipped.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Aug 2013 18:35:38 +0200
 
