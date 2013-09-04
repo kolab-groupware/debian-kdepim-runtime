@@ -10,6 +10,9 @@ kdepim-runtime (4:4.10.5-2) UNRELEASED; urgency=low
   * Remove handling of libkdepim-runtime-dms-copy.so, no more shipped.
   * Update lintian overrides.
   * Disable the build of tests, they are not run anyway.
+  * Enable the Google Akonadi resource:
+    - add the libkgapi-dev and libqtwebkit-dev build dependencies
+    - update kdepim-runtime.install with the newly installed files
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Aug 2013 18:35:38 +0200
 
