@@ -2,6 +2,8 @@ usr/bin/accountwizard
 usr/bin/akonadi2xml
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_davgroupware_resource
+usr/bin/akonadi_googlecalendar_resource
+usr/bin/akonadi_googlecontacts_resource
 usr/bin/akonadi_icaldir_resource
 usr/bin/akonadi_imap_resource
 usr/bin/akonadi_invitations_agent
@@ -16,6 +18,7 @@ usr/bin/akonadi_microblog_resource
 usr/bin/akonadi_mixedmaildir_resource
 usr/bin/akonadi_nepomuk_feeder
 usr/bin/akonadi_nepomuktag_resource
+usr/bin/akonadi_newmailnotifier_agent
 usr/bin/akonadi_nntp_resource
 usr/bin/akonadi_openxchange_resource
 usr/bin/akonadi_pop3_resource
@@ -97,6 +100,8 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
+usr/share/akonadi/agents/googlecalendarresource.desktop
+usr/share/akonadi/agents/googlecontactsresource.desktop
 usr/share/akonadi/agents/icaldirresource.desktop
 usr/share/akonadi/agents/icalresource.desktop
 usr/share/akonadi/agents/imapresource.desktop
@@ -116,6 +121,7 @@ usr/share/akonadi/agents/microblog.desktop
 usr/share/akonadi/agents/mixedmaildirresource.desktop
 usr/share/akonadi/agents/mtdummyresource.desktop
 usr/share/akonadi/agents/nepomuktagresource.desktop
+usr/share/akonadi/agents/newmailnotifieragent.desktop
 usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/notesresource.desktop
 usr/share/akonadi/agents/openxchangeresource.desktop
@@ -174,7 +180,8 @@ usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_microblog.desktop
 usr/share/kde4/apps/akonadi_knut_resource/knut-template.xml
 usr/share/kde4/apps/akonadi_maildispatcher_agent/akonadi_maildispatcher_agent.notifyrc
-usr/share/kde4/apps/akonadi_nepomuk_feeder/akonadi_nepomuk_feeder.notifyrc
+usr/share/kde4/apps/akonadi_newmailnotifier_agent/akonadi_newmailnotifier_agent.notifyrc
+usr/share/kde4/apps/kconf_update/newmailnotifier.upd
 usr/share/kde4/apps/nepomukpimindexerutility/nepomukpimindexerutility.rc
 usr/share/kde4/config/accountwizard.knsrc
 usr/share/kde4/config/kmail-migratorrc
@@ -185,6 +192,7 @@ usr/share/kde4/services/akonadi/davgroupware-providers/davical.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/egroupware.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/opengroupware.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/owncloud.desktop
+usr/share/kde4/services/akonadi/davgroupware-providers/owncloud-pre5.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/scalix.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/sogo.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/yahoo.desktop
