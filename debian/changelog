@@ -8,6 +8,9 @@ kdepim-runtime (4:4.11.1-1) UNRELEASED; urgency=low
     - update kdepim-runtime.install with the newly installed files
   * Install the akonaditray icons.
 
+  [ Maximiliano Curia ]
+  * Update build-dependencies.
+
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:14:36 +0200
 
 kdepim-runtime (4:4.10.5-1) unstable; urgency=low
