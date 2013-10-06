@@ -1,18 +1,30 @@
 kdepim-runtime (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
+  * Update build-dependencies.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:20:15 +0200
+
+kdepim-runtime (4:4.10.5-2) unstable; urgency=low
+
+  * Team upload.
 
   [ Pino Toscano ]
   * Enable the kolabproxy Akonadi resource: (Closes: #705406)
     - add the libkolabxml-dev and libkolab-dev build dependencies
     - update kdepim-runtime.install with the newly installed files
+    - make sure to force the minimum libkolab version to 0.4.2-7, as it
+      provides a wanted bugfix
   * Install the akonaditray icons.
+  * Remove handling of libkdepim-runtime-dms-copy.so, no more shipped.
+  * Update lintian overrides.
+  * Disable the build of tests, they are not run anyway.
+  * Enable the Google Akonadi resource:
+    - add the libkgapi-dev and libqtwebkit-dev build dependencies
+    - update kdepim-runtime.install with the newly installed files
 
-  [ Maximiliano Curia ]
-  * Update build-dependencies.
-  * Update install files.
-
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:20:15 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 09 Sep 2013 09:59:51 -0300
 
 kdepim-runtime (4:4.10.5-1) unstable; urgency=low
 

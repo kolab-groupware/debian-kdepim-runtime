@@ -11,9 +11,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
  libstreamanalyzer-dev, shared-mime-info (>= 0.30), shared-desktop-ontologies (>= 0.10),
  nepomuk-core-dev, libqjson-dev,
- libkolabxml-dev, libkolab-dev (>= 0.2),
- libkgapi2-2-dev,
- libqtwebkit-dev,
+ libkolabxml-dev, libkolab-dev (>= 0.4.2-7~),
+ libkgapi-dev, libqtwebkit-dev,
  libx11-dev,
  pkg-config
 Standards-Version: 3.9.4
@@ -23,7 +22,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdepimlibs-kio-plugins, akonadi-server (>= 1.8)
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ libkolab0(>= 0.4.2-7~),
+ kdepimlibs-kio-plugins,
+ akonadi-server (>= 1.8)
 Replaces: akonadi-kde, libmaildir4
 Breaks: akonadi-kde, libmaildir4, kdepimlibs5 (<< 4:4.4)
 Description: runtime components for Akonadi KDE
