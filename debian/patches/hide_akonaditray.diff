@@ -5,9 +5,9 @@ Forwarded: no
 
 Index: kdepim-runtime/tray/akonaditray.desktop
 ===================================================================
---- kdepim-runtime.orig/tray/akonaditray.desktop	2013-05-28 22:17:07.002066577 +0200
-+++ kdepim-runtime/tray/akonaditray.desktop	2013-05-28 22:17:07.002066577 +0200
-@@ -98,3 +98,4 @@
+--- kdepim-runtime.orig/tray/akonaditray.desktop	2013-11-10 00:47:26.185186739 +0100
++++ kdepim-runtime/tray/akonaditray.desktop	2013-11-10 00:47:26.181186903 +0100
+@@ -99,3 +99,4 @@
  GenericName[x-test]=xxAkonadi Tray Utilityxx
  GenericName[zh_CN]=Akonadi 托盘工具
  GenericName[zh_TW]=Akonadi 系統匣工具
