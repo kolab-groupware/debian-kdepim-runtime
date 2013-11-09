@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.11.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 00:41:20 +0100
+
 kdepim-runtime (4:4.11.2-2) experimental; urgency=low
 
   * Update build-dependencies.
