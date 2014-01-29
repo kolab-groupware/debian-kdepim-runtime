@@ -7,18 +7,29 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- debhelper (>= 9), cmake, pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.11.3), kdelibs5-dev (>= 4:4.11),
- libakonadi-dev (>= 1.9.80),
- libxml2-dev, xsltproc, libstrigiqtdbusclient-dev, libboost-dev (>= 1.40.0-2),
- libstreamanalyzer-dev, shared-mime-info (>= 0.30),
- shared-desktop-ontologies (>= 0.11),
- nepomuk-core-dev (>= 4:4.11), libqjson-dev, libsoprano-dev (>= 2.9),
- libkolabxml-dev, libkolab-dev (>= 0.4.2-7~),
- libkgapi-dev (>= 1.9.81), libqtwebkit-dev,
- libx11-dev,
- pkg-config
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11.3),
+               libakonadi-dev (>= 1.9.80),
+               libboost-dev (>= 1.40.0-2),
+               libkgapi-dev (>= 1.9.81),
+               libkolab-dev (>= 0.4.2-7~),
+               libkolabxml-dev,
+               libqjson-dev,
+               libqtwebkit-dev,
+               libsoprano-dev (>= 2.9),
+               libstreamanalyzer-dev,
+               libstrigiqtdbusclient-dev,
+               libx11-dev,
+               libxml2-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               shared-desktop-ontologies (>= 0.11),
+               shared-mime-info (>= 0.30),
+               xsltproc
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
@@ -27,12 +38,13 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
- libkolab0(>= 0.4.2-7~),
- kdepimlibs-kio-plugins,
- akonadi-server (>= 1.8)
+Depends: akonadi-server (>= 1.8),
+         kdepimlibs-kio-plugins,
+         libkolab0(>= 0.4.2-7~),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Replaces: akonadi-kde, libmaildir4
-Breaks: akonadi-kde, libmaildir4, kdepimlibs5 (<< 4:4.4)
+Breaks: akonadi-kde, kdepimlibs5 (<< 4:4.4), libmaildir4
 Description: runtime components for Akonadi KDE
  This package contains Akonadi agents written using KDE Development Platform
  libraries.
@@ -47,7 +59,7 @@ Priority: extra
 Architecture: any
 Replaces: kdepim-dbg (<< 4:4.4)
 Breaks: kdepim-dbg (<< 4:4.4)
-Depends: ${misc:Depends}, kdepim-runtime (= ${binary:Version})
+Depends: kdepim-runtime (= ${binary:Version}), ${misc:Depends}
 Description: debugging files for Akonadi KDE runtime components
  This package contains debugging symbols associated with kdepim-runtime.
  They will automatically be used by gdb for debugging issues related to

@@ -11,7 +11,7 @@ Upstream Authors:
 	Till Adams
 	Thomas McGuire
 	Stephen Kelly
-	and others	
+	and others
 
 Copyright:
 
@@ -82,14 +82,14 @@ License:
     02110-1301, USA.
 
     For full text of the GNU Library General Public License, see
-    /usr/share/common-licenses/LGPL-2 
+    /usr/share/common-licenses/LGPL-2
 
   lgplv2.1:
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
     License as published by the Free Software Foundation; either
     version 2.1 of the License, or (at your option) any later version.
- 
+
     This library is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. | See the GNU
@@ -101,7 +101,7 @@ License:
     02110-1301 | USA
 
     For full text of the GNU Lesser General Public License, see
-    /usr/share/common-licenses/LGPL-2.1 
+    /usr/share/common-licenses/LGPL-2.1
 
   gplv2:
     This program is free software; you can redistribute it and/or
@@ -119,7 +119,7 @@ License:
     Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
     For full text of the GNU General Public License, see
-    /usr/share/common-licenses/GPL-2 
+    /usr/share/common-licenses/GPL-2
 
   gplv3
     This program is free software: you can redistribute it and/or modify
@@ -164,5 +164,3 @@ The Debian packaging is:
 
     Copyright (C) 2009 Sune Vuorela <debian@pusling.com>
     and available under the gnu library public license, version 2, or at your opinion any later version.
-
-

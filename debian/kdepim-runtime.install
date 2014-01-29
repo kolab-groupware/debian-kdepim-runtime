@@ -191,8 +191,8 @@ usr/share/kde4/services/akonadi/davgroupware-providers/citadel.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/davical.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/egroupware.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/opengroupware.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/owncloud.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/owncloud-pre5.desktop
+usr/share/kde4/services/akonadi/davgroupware-providers/owncloud.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/scalix.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/sogo.desktop
 usr/share/kde4/services/akonadi/davgroupware-providers/yahoo.desktop
