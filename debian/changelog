@@ -2,6 +2,7 @@ kdepim-runtime (4:4.11.5-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Build the unit tests.
+  * Add autopkgtests.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 16:38:01 +0100
 
