@@ -3,6 +3,7 @@ kdepim-runtime (4:4.12.2-1~) UNRELEASED; urgency=medium
   * New upstream release.
   * Update install files.
   * Update build dependencies.
+  * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Feb 2014 19:27:41 +0100
 
