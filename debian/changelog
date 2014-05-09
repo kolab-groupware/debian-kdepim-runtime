@@ -1,3 +1,10 @@
+kdepim-runtime (4:4.12.4-2) UNRELEASED; urgency=medium
+
+  * Backport upstream patch to avoid akonadi_imap crash (upstream bug:
+    329805)
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 09 May 2014 15:30:58 +0200
+
 kdepim-runtime (4:4.12.4-1) unstable; urgency=medium
 
   * New upstream release.

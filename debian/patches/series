@@ -1,1 +1,2 @@
 hide_akonaditray.diff
+fix_upstream_329805_akonadi_imap_crash.patch
