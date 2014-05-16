@@ -27,7 +27,6 @@ kdepim-runtime (4:4.12.2-1) experimental; urgency=medium
   * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:30 +0100
->>>>>>> kde4.12
 
 kdepim-runtime (4:4.11.5-1) unstable; urgency=medium
 
