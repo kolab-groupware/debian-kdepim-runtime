@@ -2,6 +2,7 @@ kdepim-runtime (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
+  * Remove upstream patch: fix_upstream_329805_akonadi_imap_crash.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 18 May 2014 01:36:55 +0200
 
