@@ -19,12 +19,10 @@ Build-Depends: cmake,
 #               libkolabxml-dev (>= 1.0),
                libqjson-dev,
                libqtwebkit-dev,
-               libsoprano-dev (>= 2.9),
                libstreamanalyzer-dev,
                libx11-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               shared-desktop-ontologies (>= 0.11),
                shared-mime-info (>= 0.30),
                xsltproc
 Standards-Version: 3.9.5
