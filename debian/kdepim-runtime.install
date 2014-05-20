@@ -9,15 +9,13 @@ usr/bin/akonadi_invitations_agent
 usr/bin/akonadi_kabc_resource
 usr/bin/akonadi_kcal_resource
 usr/bin/akonadi_kdeaccounts_resource
-usr/bin/akonadi_kolabproxy_resource
+# usr/bin/akonadi_kolabproxy_resource
 usr/bin/akonadi_localbookmarks_resource
 usr/bin/akonadi_maildispatcher_agent
 usr/bin/akonadi_mailtransport_dummy_resource
-usr/bin/akonadi_microblog_resource
+# usr/bin/akonadi_microblog_resource
 usr/bin/akonadi_migration_agent
 usr/bin/akonadi_mixedmaildir_resource
-usr/bin/akonadi_nepomuk_feeder
-usr/bin/akonadi_nepomuktag_resource
 usr/bin/akonadi_newmailnotifier_agent
 usr/bin/akonadi_nntp_resource
 usr/bin/akonadi_openxchange_resource
@@ -28,8 +26,8 @@ usr/bin/gidmigrator
 usr/bin/kaddressbookmigrator
 usr/bin/kjotsmigrator
 usr/bin/kmail-migrator
+usr/bin/knotes-migrator
 usr/bin/kres-migrator
-usr/bin/nepomukpimindexerutility
 usr/lib/kde4/accountwizard_plugin.so
 usr/lib/kde4/akonadi_akonotes_resource.so
 usr/lib/kde4/akonadi_contacts_resource.so
@@ -38,10 +36,6 @@ usr/lib/kde4/akonadi_kalarm_dir_resource.so
 usr/lib/kde4/akonadi_kalarm_resource.so
 usr/lib/kde4/akonadi_maildir_resource.so
 usr/lib/kde4/akonadi_mbox_resource.so
-usr/lib/kde4/akonadi_nepomuk_calendar_feeder.so
-usr/lib/kde4/akonadi_nepomuk_contact_feeder.so
-usr/lib/kde4/akonadi_nepomuk_email_feeder.so
-usr/lib/kde4/akonadi_nepomuk_note_feeder.so
 usr/lib/kde4/akonadi_notes_resource.so
 usr/lib/kde4/akonadi_serializer_addressee.so
 usr/lib/kde4/akonadi_serializer_bookmark.so
@@ -86,13 +80,15 @@ usr/lib/kde4/kcm_akonadi_resources.so
 usr/lib/kde4/kcm_akonadi_server.so
 usr/lib/kde4/kio_akonadi.so
 usr/lib/libakonadi-filestore.so.4
-usr/lib/libakonadi-filestore.so.4.*.*
+usr/lib/libakonadi-filestore.so.4.*
+usr/lib/libfolderarchivesettings.so.4
+usr/lib/libfolderarchivesettings.so.4.*
 usr/lib/libkdepim-copy.so.4
-usr/lib/libkdepim-copy.so.4.*.*
+usr/lib/libkdepim-copy.so.4.*
 usr/lib/libkmindexreader.so.4
-usr/lib/libkmindexreader.so.4.*.*
+usr/lib/libkmindexreader.so.4.*
 usr/lib/libmaildir.so.4
-usr/lib/libmaildir.so.4.*.*
+usr/lib/libmaildir.so.4.*
 usr/share/akonadi/agents/akonadinepomukfeederagent.desktop
 usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
@@ -109,16 +105,15 @@ usr/share/akonadi/agents/kalarmdirresource.desktop
 usr/share/akonadi/agents/kalarmresource.desktop
 usr/share/akonadi/agents/kcalresource.desktop
 usr/share/akonadi/agents/kdeaccountsresource.desktop
-usr/share/akonadi/agents/kolabproxyresource.desktop
+# usr/share/akonadi/agents/kolabproxyresource.desktop
 usr/share/akonadi/agents/localbookmarksresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
-usr/share/akonadi/agents/microblog.desktop
+# usr/share/akonadi/agents/microblog.desktop
 usr/share/akonadi/agents/migrationagent.desktop
 usr/share/akonadi/agents/mixedmaildirresource.desktop
 usr/share/akonadi/agents/mtdummyresource.desktop
-usr/share/akonadi/agents/nepomuktagresource.desktop
 usr/share/akonadi/agents/newmailnotifieragent.desktop
 usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/notesresource.desktop
@@ -129,21 +124,14 @@ usr/share/akonadi/agents/vcardresource.desktop
 usr/share/applications/kde4/accountwizard.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/autostart/kaddressbookmigrator.desktop
-usr/share/icons/hicolor/128x128/apps/akonaditray.png
-usr/share/icons/hicolor/128x128/apps/ox.png
-usr/share/icons/hicolor/16x16/apps/ox.png
-usr/share/icons/hicolor/22x22/apps/akonaditray.png
-usr/share/icons/hicolor/32x32/apps/akonaditray.png
-usr/share/icons/hicolor/32x32/apps/ox.png
-usr/share/icons/hicolor/48x48/apps/ox.png
-usr/share/icons/hicolor/64x64/apps/akonaditray.png
-usr/share/icons/hicolor/64x64/apps/kolab.png
-usr/share/icons/hicolor/64x64/apps/ox.png
+usr/share/icons/hicolor/*/apps/akonaditray.png
+# usr/share/icons/hicolor/*/apps/kolab.png
+usr/share/icons/hicolor/*/apps/ox.png
 usr/share/icons/hicolor/scalable/apps/akonaditray.svgz
 usr/share/kde4/apps/akonadi/accountwizard/contacts/
 usr/share/kde4/apps/akonadi/accountwizard/ical/
 usr/share/kde4/apps/akonadi/accountwizard/imap/
-usr/share/kde4/apps/akonadi/accountwizard/kolab/
+# usr/share/kde4/apps/akonadi/accountwizard/kolab/
 usr/share/kde4/apps/akonadi/accountwizard/mailbox/
 usr/share/kde4/apps/akonadi/accountwizard/maildir/
 usr/share/kde4/apps/akonadi/accountwizard/pop3/
@@ -162,7 +150,6 @@ usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_microblog.desk
 usr/share/kde4/apps/akonadi_maildispatcher_agent/akonadi_maildispatcher_agent.notifyrc
 usr/share/kde4/apps/akonadi_newmailnotifier_agent/akonadi_newmailnotifier_agent.notifyrc
 usr/share/kde4/apps/kconf_update/newmailnotifier.upd
-usr/share/kde4/apps/nepomukpimindexerutility/nepomukpimindexerutility.rc
 usr/share/kde4/config/accountwizard.knsrc
 usr/share/kde4/config/kmail-migratorrc
 usr/share/kde4/config/kres-migratorrc
@@ -183,13 +170,6 @@ usr/share/kde4/services/kcm_akonadi_resources.desktop
 usr/share/kde4/services/kcm_akonadi_server.desktop
 usr/share/kde4/services/kresources/kabc/akonadi.desktop
 usr/share/kde4/services/kresources/kcal/akonadi.desktop
-usr/share/kde4/services/nepomukcalendarfeeder.desktop
-usr/share/kde4/services/nepomukcontactfeeder.desktop
-usr/share/kde4/services/nepomukmailfeeder.desktop
-usr/share/kde4/services/nepomuknotefeeder.desktop
-usr/share/kde4/servicetypes/akonadinepomukfeeder.desktop
 usr/share/kde4/servicetypes/davgroupwareprovider.desktop
 usr/share/mime/packages/accountwizard-mime.xml
 usr/share/mime/packages/kdepim-mime.xml
-usr/share/ontology/kde/aneo.ontology
-usr/share/ontology/kde/aneo.trig
