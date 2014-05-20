@@ -1,11 +1,11 @@
-kdepim-runtime (4:4.13.1-1) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.13.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
   * Remove upstream patch: fix_upstream_329805_akonadi_imap_crash.patch
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 18 May 2014 01:36:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 May 2014 11:13:13 +0200
 
 kdepim-runtime (4:4.12.4-2) unstable; urgency=medium
 
