@@ -8,19 +8,19 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
-               debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.12),
-               kdepimlibs5-dev (>= 4:4.13.1),
-               libakonadi-dev (>= 1.12),
-               libboost-dev (>= 1.40.0-2),
-               libkgapi-dev (>= 1.9.81),
-#               libkolab-dev (>= 0.5),
-#               libkolabxml-dev (>= 1.0),
+               debhelper (>= 8),
+               kdepimlibs5-dev (>= 4:4.13), kdepimlibs5-dev (<< 4:4.14),
+               libakonadi-dev (>= 1.12.42), libakonadi-dev (<< 1.13),
+               libboost-all-dev (>= 1.40.0-2),
+               libboost-thread-dev,
+               libcurl4-gnutls-dev,
+               libkolab-dev (>= 0.6),
+               libkolabxml-dev (>= 1.0),
                libqjson-dev,
                libqtwebkit-dev,
                libstreamanalyzer-dev,
                libx11-dev,
+               libxerces-c-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                shared-mime-info (>= 0.30),
@@ -35,11 +35,11 @@ Package: kdepim-runtime
 Architecture: any
 Depends: akonadi-server (>= 1.8),
          kdepimlibs-kio-plugins,
-         libkolab0(>= 0.4.2-7~),
+         libkolab0 (>= 0.5.2),
          ${misc:Depends},
          ${shlibs:Depends}
-Replaces: akonadi-kde, libmaildir4
-Breaks: akonadi-kde, kdepimlibs5 (<< 4:4.4), libmaildir4
+Replaces: akonadi-kde, libmaildir4, kmail (<< 4:4.13.0-99), kmail (>> 4:4.13.1)
+Breaks: akonadi-kde, kdepimlibs5 (<< 4.4), libmaildir4, kmail (<< 4:4.13.0-99), kmail (>> 4:4.13.1)
 Description: runtime components for Akonadi KDE
  This package contains Akonadi agents written using KDE Development Platform
  libraries.
@@ -52,8 +52,8 @@ Package: kdepim-runtime-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Replaces: kdepim-dbg (<< 4:4.4)
-Breaks: kdepim-dbg (<< 4:4.4)
+Replaces: kdepim-dbg (<< 4.4)
+Breaks: kdepim-dbg (<< 4.4)
 Depends: kdepim-runtime (= ${binary:Version}), ${misc:Depends}
 Description: debugging files for Akonadi KDE runtime components
  This package contains debugging symbols associated with kdepim-runtime.

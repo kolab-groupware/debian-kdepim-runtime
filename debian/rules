@@ -4,5 +4,9 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 .PHONY: override_dh_auto_test
 
+override_dh_auto_configure:
+	$(overridden_command) -- \
+	-DDISABLE_ALL_OPTIONAL_SUBDIRECTORIES=TRUE -DBUILD_kolab=TRUE -DBUILD_mixedmaildir=TRUE -DBUILD_maildir=TRUE
+
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdepim-runtime-dbg

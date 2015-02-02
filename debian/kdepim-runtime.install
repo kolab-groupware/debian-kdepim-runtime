@@ -1,26 +1,13 @@
-usr/bin/accountwizard
 usr/bin/akonadi_birthdays_resource
-usr/bin/akonadi_davgroupware_resource
-usr/bin/akonadi_googlecalendar_resource
-usr/bin/akonadi_googlecontacts_resource
-usr/bin/akonadi_icaldir_resource
 usr/bin/akonadi_imap_resource
 usr/bin/akonadi_invitations_agent
 usr/bin/akonadi_kabc_resource
 usr/bin/akonadi_kcal_resource
-usr/bin/akonadi_kdeaccounts_resource
-# usr/bin/akonadi_kolabproxy_resource
-usr/bin/akonadi_localbookmarks_resource
+usr/bin/akonadi_kolab_resource
 usr/bin/akonadi_maildispatcher_agent
-usr/bin/akonadi_mailtransport_dummy_resource
-# usr/bin/akonadi_microblog_resource
 usr/bin/akonadi_migration_agent
 usr/bin/akonadi_mixedmaildir_resource
 usr/bin/akonadi_newmailnotifier_agent
-usr/bin/akonadi_nntp_resource
-usr/bin/akonadi_openxchange_resource
-usr/bin/akonadi_pop3_resource
-usr/bin/akonadi_vcarddir_resource
 usr/bin/akonaditray
 usr/bin/gidmigrator
 usr/bin/kaddressbookmigrator
@@ -28,7 +15,6 @@ usr/bin/kjotsmigrator
 usr/bin/kmail-migrator
 usr/bin/knotes-migrator
 usr/bin/kres-migrator
-usr/lib/kde4/accountwizard_plugin.so
 usr/lib/kde4/akonadi_akonotes_resource.so
 usr/lib/kde4/akonadi_contacts_resource.so
 usr/lib/kde4/akonadi_ical_resource.so
@@ -93,10 +79,6 @@ usr/share/akonadi/agents/akonadinepomukfeederagent.desktop
 usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
-usr/share/akonadi/agents/davgroupwareresource.desktop
-usr/share/akonadi/agents/googlecalendarresource.desktop
-usr/share/akonadi/agents/googlecontactsresource.desktop
-usr/share/akonadi/agents/icaldirresource.desktop
 usr/share/akonadi/agents/icalresource.desktop
 usr/share/akonadi/agents/imapresource.desktop
 usr/share/akonadi/agents/invitationsagent.desktop
@@ -104,38 +86,20 @@ usr/share/akonadi/agents/kabcresource.desktop
 usr/share/akonadi/agents/kalarmdirresource.desktop
 usr/share/akonadi/agents/kalarmresource.desktop
 usr/share/akonadi/agents/kcalresource.desktop
-usr/share/akonadi/agents/kdeaccountsresource.desktop
-# usr/share/akonadi/agents/kolabproxyresource.desktop
-usr/share/akonadi/agents/localbookmarksresource.desktop
+usr/share/akonadi/agents/kolabresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
-# usr/share/akonadi/agents/microblog.desktop
 usr/share/akonadi/agents/migrationagent.desktop
 usr/share/akonadi/agents/mixedmaildirresource.desktop
-usr/share/akonadi/agents/mtdummyresource.desktop
 usr/share/akonadi/agents/newmailnotifieragent.desktop
-usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/notesresource.desktop
-usr/share/akonadi/agents/openxchangeresource.desktop
-usr/share/akonadi/agents/pop3resource.desktop
-usr/share/akonadi/agents/vcarddirresource.desktop
 usr/share/akonadi/agents/vcardresource.desktop
-usr/share/applications/kde4/accountwizard.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/autostart/kaddressbookmigrator.desktop
 usr/share/icons/hicolor/*/apps/akonaditray.png
-# usr/share/icons/hicolor/*/apps/kolab.png
-usr/share/icons/hicolor/*/apps/ox.png
 usr/share/icons/hicolor/scalable/apps/akonaditray.svgz
-usr/share/kde4/apps/akonadi/accountwizard/contacts/
-usr/share/kde4/apps/akonadi/accountwizard/ical/
-usr/share/kde4/apps/akonadi/accountwizard/imap/
-# usr/share/kde4/apps/akonadi/accountwizard/kolab/
-usr/share/kde4/apps/akonadi/accountwizard/mailbox/
-usr/share/kde4/apps/akonadi/accountwizard/maildir/
-usr/share/kde4/apps/akonadi/accountwizard/pop3/
-usr/share/kde4/apps/akonadi/accountwizard/tine20/
+usr/share/kde4/apps/akonadi/accountwizard
 usr/share/kde4/apps/akonadi/firstrun/defaultaddressbook
 usr/share/kde4/apps/akonadi/firstrun/defaultcalendar
 usr/share/kde4/apps/akonadi/firstrun/defaultnotebook
@@ -150,26 +114,12 @@ usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_microblog.desk
 usr/share/kde4/apps/akonadi_maildispatcher_agent/akonadi_maildispatcher_agent.notifyrc
 usr/share/kde4/apps/akonadi_newmailnotifier_agent/akonadi_newmailnotifier_agent.notifyrc
 usr/share/kde4/apps/kconf_update/newmailnotifier.upd
-usr/share/kde4/config/accountwizard.knsrc
 usr/share/kde4/config/kmail-migratorrc
 usr/share/kde4/config/kres-migratorrc
 usr/share/kde4/services/akonadi.protocol
-usr/share/kde4/services/akonadi/davgroupware-providers/citadel.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/davical.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/egroupware.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/opengroupware.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/owncloud-pre5.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/owncloud.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/scalix.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/sogo.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/yahoo.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/zarafa.desktop
-usr/share/kde4/services/akonadi/davgroupware-providers/zimbra.desktop
 usr/share/kde4/services/kcm_akonadi.desktop
 usr/share/kde4/services/kcm_akonadi_resources.desktop
 usr/share/kde4/services/kcm_akonadi_server.desktop
 usr/share/kde4/services/kresources/kabc/akonadi.desktop
 usr/share/kde4/services/kresources/kcal/akonadi.desktop
-usr/share/kde4/servicetypes/davgroupwareprovider.desktop
-usr/share/mime/packages/accountwizard-mime.xml
 usr/share/mime/packages/kdepim-mime.xml

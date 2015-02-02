@@ -1,0 +1,159 @@
+Index: kdepim-runtime/resources/kolabproxy/tests/imapsignaltest.cpp
+===================================================================
+--- kdepim-runtime.orig/resources/kolabproxy/tests/imapsignaltest.cpp	2014-08-23 19:38:17.491427137 +0200
++++ kdepim-runtime/resources/kolabproxy/tests/imapsignaltest.cpp	2014-08-24 00:06:47.428309835 +0200
+@@ -208,60 +208,6 @@
+ 
+     }
+ 
+-    void itemRemovedSignal() {
+-
+-        KCalCore::Event::Ptr event(new KCalCore::Event);
+-        event->setSummary("summary1");
+-        event->setDtStart(KDateTime(QDate(2013,02,01), QTime(1,1), KDateTime::ClockTime));
+-
+-        Akonadi::Item firstImapItem;
+-        {
+-            Akonadi::ItemCreateJob *createJob = new Akonadi::ItemCreateJob(createImapItem(event), imapCollection, this);
+-            QVERIFY(TestUtils::ensure(kolabCollection, SIGNAL(itemAdded(Akonadi::Item,Akonadi::Collection)), createJob));
+-            firstImapItem = createJob->item();
+-        }
+-
+-        //create item again in imap resource (same gid), but with different content
+-        Akonadi::Item secondImapItem;
+-        {
+-            event->setSummary("summary2");
+-            Akonadi::ItemCreateJob *createJob = new Akonadi::ItemCreateJob(createImapItem(event), imapCollection, this);
+-//             AKVERIFYEXEC(createJob);
+-            QVERIFY(TestUtils::ensure(kolabCollection, SIGNAL(itemChanged(Akonadi::Item,QSet<QByteArray>)), createJob));
+-            secondImapItem = createJob->item();
+-        }
+-        //we expect one kolab item that is linked to the second imap item
+-
+-        //remove first imap item
+-        {
+-            Akonadi::ItemDeleteJob *deleteJob = new Akonadi::ItemDeleteJob(firstImapItem);
+-            QVERIFY(!TestUtils::ensure(kolabCollection, SIGNAL(itemRemoved(Akonadi::Item)), deleteJob));
+-        }
+-
+-        //TestUtils::ensure kolab item remains
+-        {
+-            Akonadi::ItemFetchJob *fetchJob = new Akonadi::ItemFetchJob(kolabCollection);
+-            fetchJob->fetchScope().setFetchRemoteIdentification(true);
+-            AKVERIFYEXEC(fetchJob);
+-            QCOMPARE(fetchJob->items().size(), 1);
+-            const Akonadi::Item item = fetchJob->items().first();
+-            QCOMPARE(item.remoteId().toLongLong(), secondImapItem.id());
+-        }
+-
+-        //remove second imap item
+-        {
+-            Akonadi::ItemDeleteJob *deleteJob = new Akonadi::ItemDeleteJob(secondImapItem);
+-            QVERIFY(TestUtils::ensure(kolabCollection, SIGNAL(itemRemoved(Akonadi::Item)), deleteJob));
+-        }
+-
+-        //TestUtils::ensure kolab item is removed
+-        {
+-            Akonadi::ItemFetchJob *fetchJob = new Akonadi::ItemFetchJob(kolabCollection);
+-            AKVERIFYEXEC(fetchJob);
+-            QCOMPARE(fetchJob->items().size(), 0);
+-        }
+-    }
+-
+     void collectionAddedRemovedSignal() {
+         Akonadi::Collection createdCollection;
+         {
+Index: kdepim-runtime/resources/kolabproxy/tests/clientsidetest.cpp
+===================================================================
+--- kdepim-runtime.orig/resources/kolabproxy/tests/clientsidetest.cpp	2014-08-23 19:38:17.491427137 +0200
++++ kdepim-runtime/resources/kolabproxy/tests/clientsidetest.cpp	2014-08-24 01:15:30.475509810 +0200
+@@ -147,89 +147,6 @@
+             QCOMPARE(fetchJob->items().size(), 0);
+         }
+     }
+-
+-    void testItemModify()
+-    {
+-        KDateTime date1(QDate(2013,10,10), KDateTime::ClockTime);
+-        date1.setDateOnly(true);
+-        KDateTime date2(QDate(2014,10,10), KDateTime::ClockTime);
+-        date2.setDateOnly(true);
+-
+-        KCalCore::Event::Ptr event(new KCalCore::Event());
+-        event->setDtStart(date1);
+-        Akonadi::Item createdItem;
+-        {
+-            Akonadi::Item item(event->mimeType());
+-            item.setPayload(event);
+-            Akonadi::ItemCreateJob *createJob = new Akonadi::ItemCreateJob(item, kolabCollection);
+-            QVERIFY(TestUtils::ensure(imapCollection, SIGNAL(itemAdded(Akonadi::Item,Akonadi::Collection)), createJob));
+-            createdItem = createJob->item();
+-            QVERIFY(createdItem.isValid());
+-        }
+-
+-        {
+-            event->setDtStart(date2);
+-            createdItem.setPayload(event);
+-            Akonadi::ItemModifyJob *modifyJob = new Akonadi::ItemModifyJob(createdItem);
+-            QVERIFY(TestUtils::ensure(imapCollection, SIGNAL(itemChanged(Akonadi::Item,QSet<QByteArray>)), modifyJob));
+-            Akonadi::Item modifiedItem = modifyJob->item();
+-            QVERIFY(modifiedItem.hasPayload<KCalCore::Event::Ptr>());
+-            QCOMPARE(modifiedItem.payload<KCalCore::Event::Ptr>()->dtStart().toString(), date2.toString());
+-        }
+-
+-        {
+-            Akonadi::ItemFetchJob *fetchJob = new Akonadi::ItemFetchJob(imapCollection);
+-            fetchJob->fetchScope().fetchFullPayload(true);
+-            AKVERIFYEXEC(fetchJob);
+-            QCOMPARE(fetchJob->items().size(), 1);
+-            const Akonadi::Item item = fetchJob->items().first();
+-            QVERIFY(item.hasPayload<KMime::Message::Ptr>());
+-            Kolab::KolabObjectReader reader(item.payload<KMime::Message::Ptr>());
+-            QCOMPARE(reader.getEvent()->dtStart().toString(), date2.toString());
+-        }
+-        cleanup();
+-    }
+-
+-    void testItemModifyFailure()
+-    {
+-        KDateTime date1(QDate(2013,10,10), KDateTime::ClockTime);
+-        date1.setDateOnly(true);
+-
+-        KCalCore::Event::Ptr event(new KCalCore::Event());
+-        event->setDtStart(date1);
+-        Akonadi::Item createdItem;
+-        {
+-            Akonadi::Item item(event->mimeType());
+-            item.setPayload(event);
+-            Akonadi::ItemCreateJob *createJob = new Akonadi::ItemCreateJob(item, kolabCollection);
+-            QVERIFY(TestUtils::ensure(imapCollection, SIGNAL(itemAdded(Akonadi::Item,Akonadi::Collection)), createJob));
+-            createdItem = createJob->item();
+-            QVERIFY(createdItem.isValid());
+-        }
+-
+-        {
+-            event->setDtStart(KDateTime());
+-            createdItem.setPayload(event);
+-            Akonadi::ItemModifyJob *modifyJob = new Akonadi::ItemModifyJob(createdItem);
+-            AKVERIFYEXEC(modifyJob);
+-            QTest::qWait(TIMEOUT);
+-            //FIXME this fails, no idea why
+-//             QVERIFY(!TestUtils::ensure(imapCollection, SIGNAL(itemChanged(Akonadi::Item,QSet<QByteArray>)), modifyJob));
+-        }
+-
+-        //Ensure the change has been reverted for the kolab item
+-        {
+-            Akonadi::ItemFetchJob *fetchJob = new Akonadi::ItemFetchJob(kolabCollection);
+-            fetchJob->fetchScope().fetchFullPayload();
+-            AKVERIFYEXEC(fetchJob);
+-            QCOMPARE(fetchJob->items().size(), 1);
+-            const Akonadi::Item item = fetchJob->items().first();
+-            QVERIFY(item.hasPayload<KCalCore::Incidence::Ptr>());
+-            QCOMPARE(item.payload<KCalCore::Incidence::Ptr>()->dtStart().toString(), date1.toString());
+-        }
+-        cleanup();
+-    }
+-
+ };
+ 
+ QTEST_AKONADIMAIN( ClientSideTest, NoGUI )
