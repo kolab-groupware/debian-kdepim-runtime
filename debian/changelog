@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.13.0.1-0~kolab1) unstable; urgency=medium
+
+  * released version 4:4.13.0.1
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Mon, 02 Feb 2015 16:14:54 +0100
+
 kdepim-runtime (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
