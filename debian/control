@@ -38,8 +38,8 @@ Depends: akonadi-server (>= 1.8),
          libkolab0 (>= 0.5.2),
          ${misc:Depends},
          ${shlibs:Depends}
-Replaces: akonadi-kde, libmaildir4, kmail (<< 4:4.13.0-99), kmail (>> 4:4.13.1)
-Breaks: akonadi-kde, kdepimlibs5 (<< 4.4), libmaildir4, kmail (<< 4:4.13.0-99), kmail (>> 4:4.13.1)
+Replaces: akonadi-kde, libmaildir4, kmail (<< 4:4.13.0-99), kmail (>> 4:4.13.4)
+Breaks: akonadi-kde, kdepimlibs5 (<< 4.4), libmaildir4, kmail (<< 4:4.13.0-99), kmail (>> 4:4.13.4)
 Description: runtime components for Akonadi KDE
  This package contains Akonadi agents written using KDE Development Platform
  libraries.
