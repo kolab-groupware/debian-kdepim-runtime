@@ -1,8 +1,19 @@
+kdepim-runtime (4:4.13.0.8-0~kolab1) unstable; urgency=medium
+  * New upstream release 4.13.0.8
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Sat, 02 Apr 2016 02:12:08 +0200
+
+kdepim-runtime (4:4.13.0.7-0~kolab1) unstable; urgency=medium
+
+  * New upstream release 4.13.0.7
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Sat, 02 Apr 2016 01:56:04 +0200
+
 kdepim-runtime (4:4.13.0.6-0~kolab1) unstable; urgency=medium
 
   * New upstream release 4.13.0.6
 
- -- Sandro Knauß <knauss@kolabsys.com>  Fri, 19 Feb 2016 10:01:53 +0100
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Fri, 19 Feb 2016 09:32:19 +0100
 
 kdepim-runtime (4:4.13.0.5-0~kolab1) unstable; urgency=medium
 
