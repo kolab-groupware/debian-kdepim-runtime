@@ -1,3 +1,9 @@
+kdepim-runtime (4:4.13.0.8-0~kolab2) unstable; urgency=medium
+
+  * Add kolab.png in kolab-runtime
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Mon, 11 Apr 2016 15:24:58 +0200
+
 kdepim-runtime (4:4.13.0.8-0~kolab1) unstable; urgency=medium
   * New upstream release 4.13.0.8
 

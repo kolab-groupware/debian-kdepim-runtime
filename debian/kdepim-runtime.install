@@ -98,6 +98,7 @@ usr/share/akonadi/agents/vcardresource.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/autostart/kaddressbookmigrator.desktop
 usr/share/icons/hicolor/*/apps/akonaditray.png
+usr/share/icons/hicolor/*/apps/kolab.png
 usr/share/icons/hicolor/scalable/apps/akonaditray.svgz
 usr/share/kde4/apps/akonadi/accountwizard
 usr/share/kde4/apps/akonadi/firstrun/defaultaddressbook
